@@ -104,7 +104,7 @@ SHRP_PATH := device/meizu/m1852
 
 # Maintainer name *
 
-SHRP_MAINTAINER := wwrrj
+SHRP_MAINTAINER := MisterZtr
 
 # Device codename *
 
