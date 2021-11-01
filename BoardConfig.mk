@@ -94,7 +94,6 @@ TW_USE_LEDS_HAPTICS := true
 # Notch
 TW_Y_OFFSET := 51
 TW_H_OFFSET := -51
-TW_DEFAULT_LANGUAGE:=zh_CN
 
 # NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
 
