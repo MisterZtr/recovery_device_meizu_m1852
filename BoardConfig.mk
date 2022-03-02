@@ -90,6 +90,7 @@ TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_USE_LEDS_HAPTICS := true
+ALLOW_MISSING_DEPENDENCIES=true
 
 # Notch
 TW_Y_OFFSET := 51
