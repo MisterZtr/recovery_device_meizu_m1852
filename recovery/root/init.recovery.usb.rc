@@ -1,4 +1,4 @@
-# Copyright (c) 2011-2016, The Linux Foundation. All rights reserved.
+Copyright (c) 2017-2018,2020-2022 The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -68,7 +68,6 @@ on boot
     symlink /config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
     mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000
     write /sys/class/android_usb/android0/f_ffs/aliases adb
-
 on property:sys.usb.config=none
     write /config/usb_gadget/g1/UDC "none"
     stop adbd
